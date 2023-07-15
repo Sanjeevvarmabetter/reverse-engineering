@@ -1,0 +1,39 @@
+instead of directly using ghidra or ida use strace or ltrace
+
+strace docs
+https://www.geeksforgeeks.org/strace-command-in-linux-with-examples/
+
+to install strace
+
+-> sudo apt install strace
+
+now type 
+
+->chmod +x <filename>  //for setting 
+
+-> strace ./<filename>
+
+this is how we can use strace 
+
+but now i am going to show objdump
+
+
+for disassembly
+
+-> objdump -d ./<filename>
+
+now let us use ghidra
+
+search for favorite keyword 
+
+now as this is a cross-referance(XREF) it shows part of code called or referenced
+
+now try to understand the code
+
+there are some basic if else statements
+
+0x86187  //this is a hexadecimal number
+
+we need to convert this in to decimal
+ 
+after connverting we will get our desired number
